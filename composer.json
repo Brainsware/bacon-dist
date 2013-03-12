@@ -1,0 +1,15 @@
+{
+	"name": "brainsware/bacon-dist",
+	"description": "Bacon distribution",
+	"license": "Apache-2.0",
+
+	"require": {
+		"brainsware/bacon": "dev-master"
+	},
+
+	"minimum-stability": "dev",
+
+	"scripts": {
+		"post-install-cmd": "touch fufu"
+	}
+}
