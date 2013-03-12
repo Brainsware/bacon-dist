@@ -14,6 +14,13 @@
 	},
 
 	"scripts": {
-		"post-install-cmd": "touch test"
+		"post-install-cmd": [
+			"mkdir -p Config Controllers Models Views/Intro htdocs logs session",
+			"cp vendor/brainsware/bacon-dist/skeleton/base_config Config/Base.php",
+			"cp vendor/brainsware/bacon-dist/skeleton/application_controller Controllers/Application.php",
+			"cp vendor/brainsware/bacon-dist/skeleton/intro_controller Controllers/Intro.php",
+			"cp vendor/brainsware/bacon-dist/skeleton/intro_template Views/Intro/index.tpl",
+			"cp vendor/brainsware/bacon-dist/skeleton/layout_template Views/layout.tpl"
+		]
 	}
 }
