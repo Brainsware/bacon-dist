@@ -16,9 +16,9 @@
 
 	"autoload": {
 		"psr-0": {
-			"models": ".",
-			"controllers": ".",
-			"config": "."
+			"Models": ".",
+			"Controllers": ".",
+			"Config": "."
 		}
 	}
 }
