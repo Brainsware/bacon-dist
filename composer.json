@@ -3,6 +3,7 @@
 	"description": "Distribution package for bacon",
 	"version": "dev-master",
 	"license": "Apache-2.0",
+	"minimum-stability": "dev",
 
 	"repositories": [
 		{ "type": "composer", "url": "http://local.satis" }
