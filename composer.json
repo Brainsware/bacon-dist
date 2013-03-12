@@ -1,15 +1,18 @@
 {
 	"name": "brainsware/bacon-dist",
-	"description": "Bacon distribution",
+	"description": "Distribution package for bacon",
+	"version": "dev-master",
 	"license": "Apache-2.0",
+
+	"repositories": [
+		{ "type": "composer", "url": "http://local.satis" }
+	],
 
 	"require": {
 		"brainsware/bacon": "dev-master"
 	},
 
-	"minimum-stability": "dev",
-
 	"scripts": {
-		"post-install-cmd": "touch fufu"
+		"post-install-cmd": "touch test"
 	}
 }
