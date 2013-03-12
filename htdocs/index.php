@@ -2,6 +2,6 @@
 
 require 'vendor/autoload.php';
 
-require 'vendor/brainsware/bacon/boot.php';
+require 'vendor/brainsware/bacon/lib/boot.php';
 
 ?>

@@ -10,6 +10,15 @@
 	],
 
 	"require": {
+		"php": ">= 5.4.0",
 		"brainsware/bacon": "dev-master"
+	},
+
+	"autoload": {
+		"psr-0": {
+			"models": ".",
+			"controllers": ".",
+			"config": "."
+		}
 	}
 }
