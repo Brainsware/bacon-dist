@@ -1,7 +1,6 @@
 {
 	"name": "brainsware/bacon-dist",
 	"description": "Distribution package for bacon",
-	"version": "dev-master",
 	"license": "Apache-2.0",
 	"minimum-stability": "dev",
 
