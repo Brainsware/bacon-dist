@@ -9,6 +9,13 @@
 		"brainsware/bacon": "0.1.0"
 	},
 
+	"scripts": {
+		"post-install-cmd": [
+			"mkdir -p session logs",
+			"touch logs/application.log"
+		]
+	},
+
 	"autoload": {
 		"psr-0": {
 			"Models": ".",
