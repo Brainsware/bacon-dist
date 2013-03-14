@@ -5,13 +5,9 @@
 	"license": "Apache-2.0",
 	"minimum-stability": "dev",
 
-	"repositories": [
-		{ "type": "composer", "url": "http://local.satis" }
-	],
-
 	"require": {
 		"php": ">= 5.4.0",
-		"brainsware/bacon": "dev-master"
+		"brainsware/bacon": "0.1.0"
 	},
 
 	"autoload": {
