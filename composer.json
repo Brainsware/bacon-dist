@@ -11,7 +11,7 @@
 
 	"scripts": {
 		"post-install-cmd": [
-			"mkdir Models session logs",
+			"mkdir Models session",
 			"touch logs/application.log"
 		]
 	},
