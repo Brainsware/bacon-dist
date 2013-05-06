@@ -9,11 +9,6 @@
 		"brainsware/bacon": "0.1.5"
 	},
 
-	"require-dev": {
-		"php": ">= 5.4.0",
-		"brainsware/bacon": "dev-master"
-	},
-
 	"scripts": {
 		"post-install-cmd": [
 			"mkdir Models session logs",
