@@ -22,6 +22,10 @@ class Base
 		'debug'  => 'screen',
 		'driver' => 'syslog'
 	];
+
+	public static $caching = [
+		'twig' => false
+	];
 }
 
 ?>
