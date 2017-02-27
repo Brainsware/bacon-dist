@@ -6,8 +6,8 @@ class Base
 {
 	public static $app = [
 		'timezone'        => 'UTC',
-		'base_uri'        => '',
-		'fallback'        => 'Intro'
+		'base_uri'        => 'https://your_base_domain.org',
+		'root_controller' => 'Intro'
 	];
 
 	public static $session = [
@@ -24,7 +24,14 @@ class Base
 	];
 
 	public static $caching = [
-		'twig' => false
+		'twig' => true
+	];
+
+	public static $auth = [
+		'key'               => 'INSERT_GENERATED_KEY_HERE',
+		'cookie_domain'     => 'https://your_base_domain.org',
+		'timeout'           => 864000,
+		'regeneration_time' => 3600
 	];
 }
 

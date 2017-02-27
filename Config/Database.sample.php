@@ -5,7 +5,7 @@ namespace Config;
 class Database
 {
 	# This is the main database configuration
-	public static $main = array (
+	public static $main = [
 		'server'   => '', # Enter your server host here
 		'name'     => '', # The name of your database
 		'type'     => '', # Anything your PDO Installation supports. (http://www.php.net/manual/en/pdo.drivers.php)
@@ -13,7 +13,7 @@ class Database
 		'password' => '', # The password.
 		'prefix'   => '',
 		'persist'  => false
-		);
+	];
 }
 
 ?>
